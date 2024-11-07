@@ -22,7 +22,7 @@ public class Latihan1 extends javax.swing.JFrame {
      jTextField1.addKeyListener(new KeyAdapter() {
     @Override
     public void keyTyped(KeyEvent evt) {
-        char c = evt.getKeyChar();
+        char c = evt.getKeyChar(); 
         if (!Character.isDigit(c) && c != KeyEvent.VK_BACK_SPACE) {
             evt.consume(); // Mencegah input non-angka
             JOptionPane.showMessageDialog(null, "Hanya angka yang diperbolehkan!", "Error", JOptionPane.ERROR_MESSAGE);
