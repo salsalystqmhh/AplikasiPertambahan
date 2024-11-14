@@ -39,5 +39,5 @@ Aplikasi Perhitungan Angka menawarkan fitur-fitur berikut:
 4. Jalankan `Latihan1` untuk memulai aplikasi.
 
 ## Demo
-
+![Demo GIF](img/giflatihan1.gif)
 
